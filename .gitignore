@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.env
+reports/*.json
+!reports/baseline.json
+!reports/.gitkeep
+*.egg-info/
+dist/
+build/
+.DS_Store

@@ -1,0 +1,9 @@
+corpus: data/corpus.jsonl
+golden: data/golden.jsonl
+k: 3
+thresholds:
+  precision_at_k: 0.32
+  recall_at_k: 0.95
+  mrr: 0.95
+  faithfulness: 0.95
+  relevance: 0.72
