@@ -30,7 +30,7 @@ jobs:
         run: pytest
 
       - name: Run deterministic RAG regression gate
-        run: rag-eval run --config config/ci.yaml --judge heuristic --output reports/ci.json
+        run: rag-eval run --config config/ci.yaml --output reports/ci.json
 
       - name: Upload evaluation report
         if: always()
